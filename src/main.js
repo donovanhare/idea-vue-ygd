@@ -6,10 +6,18 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+import Banner from './components/general/Banner.vue'
+Vue.component('banner', Banner);
+
+import Tabs from './components/general/Tabs.vue'
+Vue.component('tabs', Tabs);
+
+
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: { App, Tabs },
   template: '<App/>'
 })
