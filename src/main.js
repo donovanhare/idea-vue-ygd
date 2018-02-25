@@ -6,6 +6,10 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+import vueSmoothScroll from 'vue-smooth-scroll'
+Vue.use(vueSmoothScroll)
+
+
 import Banner from './components/general/Banner.vue'
 Vue.component('banner', Banner);
 

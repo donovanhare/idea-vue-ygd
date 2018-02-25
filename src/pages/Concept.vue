@@ -64,6 +64,44 @@
             <div class="hero-foot">
 
                 <div class="has-text-centered">
+                    <a class="button is-large is-dark animated bounceIn" href="#step2" v-smooth-scroll>
+                        <span class="icon is-medium">
+                            <i class="fas fa-angle-down fa-2x"></i>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        
+
+        <section class="hero is-info is-fullheight is-bold" id="step2">
+            <div class="hero-body">
+                <div class="container">
+
+                    <section class="container">
+                        <div class="columns is-multiline">
+                            <div class="column">
+                                <h1 class="title">
+                                Unique idea
+                                </h1>
+                                <h2 class="content">
+                                    <p>Before diving into the creation of a game, it is important to come up with a unique idea for your game. Without a unique idea it is increadebly hard to stand out from the crowd!</p>
+                                    <p>At this early stage of game development you should also think about how your game may be played.</p>
+                                    <p>I have laid out three different games, try and match the games with the platform!</p>
+                                </h2>
+                            </div>
+                            <div class="column is-12">
+                            <img src="https://allaboutonline.co.uk/wp-content/uploads/2016/06/AllAbout_ic_Game-Dev.png" alt="">
+                            </div>
+                        </div>    
+                    </section>
+                </div>
+            </div>
+            <div class="hero-foot">
+
+                <div class="has-text-centered">
                     <a class="button is-large is-dark animated bounceIn" href="#step1-2" v-smooth-scroll>
                         <span class="icon is-medium">
                             <i class="fas fa-angle-down fa-2x"></i>
