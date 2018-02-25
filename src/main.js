@@ -12,7 +12,8 @@ Vue.component('banner', Banner);
 import Tabs from './components/general/Tabs.vue'
 Vue.component('tabs', Tabs);
 
-
+import Quiz from './components/activities/Quiz.vue'
+Vue.component('quiz', Quiz);
 
 /* eslint-disable no-new */
 new Vue({

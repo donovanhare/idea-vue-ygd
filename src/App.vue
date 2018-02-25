@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view/>
+    <transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut" mode="out-in">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
@@ -14,16 +16,7 @@ export default {
 * {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
 }
-
-.top-banner 
-{
-    background-color:rgba(0, 0, 0, 0.80);
-    color:white;
-    margin-bottom: 0px !important;
-}
-
-.bafta-logo
-{
-    max-width: 200px;
+body {
+  background-color: #09A3DB;
 }
 </style>

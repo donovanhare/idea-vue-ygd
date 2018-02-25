@@ -17,7 +17,7 @@
                     <br/><br/>This badge has a number of activities for you to complete, don't worry if you have to leave the badge - your progress will be saved.
                     </p>
                     <div class="has-text-centered">
-                    <a class="button is-dark is-large animated bounceIn" href="#step1" v-smooth-scroll>Start Badge</a>
+                    <a class="button is-dark is-large animated bounceIn" @click="nextStep">Start Badge</a>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,11 @@
 
 <script>
 export default {
-
+    methods: {
+        nextStep() {
+            this.$router.push('/concept')
+        }
+    }
 }
 </script>
 
