@@ -63,26 +63,22 @@
 
         <section class="hero is-info is-fullheight is-bold" id="step2">
             <div class="hero-body">
-                <div class="container">
-
                     <section class="container">
-                        <div class="columns is-multiline">
-                            <div class="column">
+                        <div class="columns">
+                            <div class="column is-6">
                                 <h1 class="title">
-                                Unique idea
+                                Idea
                                 </h1>
                                 <h2 class="content">
-                                    <p>Before diving into the creation of a game, it is important to come up with a unique idea for your game. Without a unique idea it is increadebly hard to stand out from the crowd!</p>
-                                    <p>At this early stage of game development you should also think about how your game may be played.</p>
-                                    <p>I have laid out three different games, try and match the games with the platform!</p>
+                                    <p>Before diving into the creation of a game, it is important to come up with a unique idea. Without a unique idea it is increadebly hard to stand out from the crowd!</p>
+                                    <p>See if you can come up with a unique idea for a game! <span class="is-hidden-touch">Try using the idea generator! Once you have come up with an idea, you are ready to move on to the next section!</span></p>
                                 </h2>
                             </div>
-                            <div class="column is-12">
-                            <img src="https://allaboutonline.co.uk/wp-content/uploads/2016/06/AllAbout_ic_Game-Dev.png" alt="">
+                            <div class="column is-6">
+                                <idea-generator></idea-generator><!-- Maybe their idea character on mobile? -->
                             </div>
                         </div>    
                     </section>
-                </div>
             </div>
             <div class="hero-foot">
 

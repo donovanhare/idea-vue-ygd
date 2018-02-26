@@ -22,6 +22,9 @@ Vue.component('title-page', TitlePage);
 import Quiz from './components/activities/Quiz.vue'
 Vue.component('quiz', Quiz);
 
+import IdeaGenerator from './components/activities/IdeaGenerator.vue'
+Vue.component('idea-generator', IdeaGenerator);
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
