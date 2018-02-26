@@ -112,7 +112,7 @@
             </div>
         </section>
 
-        <quiz :qid=1 onCompleted="/gcr"></quiz>
+        <quiz :qid=0 onComplete="/gcr"></quiz>
     </div>
 </template>
 
