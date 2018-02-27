@@ -2,10 +2,10 @@
     <div>
         <title-page title="Getting Started" :pid=0>
             <p>First we will get you up to speed with games.</p>
-            <title-button href="#step1">Continue</title-button>                        
+            <title-button>Continue</title-button>                        
         </title-page>
 
-        <section class="hero is-info is-fullheight is-bold" id="step1">
+        <section class="hero is-info is-fullheight is-bold" id="step1" v-if="currentSlide(0)">
             <div class="hero-body">
                 <div class="container">
 
@@ -49,7 +49,7 @@
             <div class="hero-foot">
 
                 <div class="has-text-centered">
-                    <a class="button is-large is-dark animated bounceIn" href="#step2" v-smooth-scroll>
+                    <a class="button is-large is-dark animated bounceIn" @click="nextStep" v-smooth-scroll>
                         <span class="icon is-medium">
                             <i class="fas fa-angle-down fa-2x"></i>
                         </span>
@@ -60,7 +60,7 @@
         </section>
 
 
-        <section class="hero is-info is-fullheight is-bold" id="step2">
+        <section class="hero is-info is-fullheight is-bold" id="step2" v-if="currentSlide(1)">
             <div class="hero-body">
                     <section class="container">
                         <div class="columns">
@@ -97,10 +97,8 @@
 
 <script>
 export default {
-    methods: {
-        nextStep() {
-            this.$router.push('/concept')
-        }
+    mounted() {
+        this.$store.commit('page', 1);
     }
 }
 </script>

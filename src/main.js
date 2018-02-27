@@ -27,6 +27,25 @@ Vue.component('title-button', TitleButton);
 Vue.component('quiz', Quiz);
 Vue.component('idea-generator', IdeaGenerator);
 
+Vue.mixin({
+  methods: {
+      nextStep() {
+          if(this.$store.getters.slide < this.$store.getters.total) {
+              this.$store.commit('nextSlide');
+              $("html, body").animate({ scrollTop: $(document).height() }, 1000);
+              return;                
+          }
+          
+          this.$router.push(this.$store.getters.next);
+      },
+
+      currentSlide(slide) {
+          //is current slide visible
+          return this.$store.getters.slide > slide;
+      }
+  }
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

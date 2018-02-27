@@ -2,13 +2,10 @@
     <div>
         <title-page title="Concept" :pid=1>
             In this section we will learn about the importance of concepting a game.<br><br>
-            
-            Step 1/6
-            <br>
             <title-button>Continue</title-button>
         </title-page>
 
-        <section class="hero is-info is-fullheight is-bold" id="step1">
+        <section class="hero is-info is-fullheight is-bold" id="step1" v-if="currentSlide(0)">
             <div class="hero-body">
                 <div class="container">
                     <div class="columns">
@@ -25,7 +22,7 @@
             <div class="hero-foot">
 
                 <div class="has-text-centered">
-                    <a class="button is-large is-dark animated bounceIn" href="#quiz" v-smooth-scroll>
+                    <a class="button is-large is-dark animated bounceIn" @click="nextStep" v-smooth-scroll>
                         <span class="icon is-medium">
                             <i class="fas fa-angle-down fa-2x"></i>
                         </span>
@@ -34,13 +31,15 @@
 
             </div>
         </section>
-        <quiz :qid=0 onComplete="/mechanics"></quiz>
+        <quiz :qid=0 onComplete="/mechanics" v-if="currentSlide(1)"></quiz>
     </div>
 </template>
 
 <script>
 export default {
-
+    mounted() {
+        this.$store.commit('page', 2);
+    }
 }
 </script>
 

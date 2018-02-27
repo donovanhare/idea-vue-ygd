@@ -1,5 +1,5 @@
 <template>
-    <a class="button is-dark is-medium animated bounceIn" :href="link" v-smooth-scroll><slot></slot></a>            
+    <a class="button is-dark is-medium animated bounceIn" :href="link" @click="nextStep" v-smooth-scroll><slot></slot></a>            
 </template>
 
 <script>
