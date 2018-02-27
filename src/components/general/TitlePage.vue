@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-info is-fullheight is-bold">
+    <section class="hero is-info is-fullheight is-bold" id="title">
         <div class="hero-head">
             <banner></banner>
             <tabs :selected="pid"></tabs>          
@@ -10,7 +10,6 @@
                 <h2 class="subtitle">
                     <slot></slot>
                 </h2>
-                <a class="button is-dark is-medium animated bounceIn" href="#step1" v-smooth-scroll>Continue</a>            
             </div>
         </div>
     </section>

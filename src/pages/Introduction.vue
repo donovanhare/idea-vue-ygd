@@ -36,7 +36,7 @@
 export default {
     methods: {
         nextStep() {
-            this.$router.push('/concept')
+            this.$router.push('/getting-started')
         }
     }
 }

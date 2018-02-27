@@ -1,0 +1,110 @@
+<template>
+    <div>
+        <title-page title="Getting Started" :pid=0>
+            <p>First we will get you up to speed with games.</p>
+            <title-button href="#step1">Continue</title-button>                        
+        </title-page>
+
+        <section class="hero is-info is-fullheight is-bold" id="step1">
+            <div class="hero-body">
+                <div class="container">
+
+                    <section class="container">
+                        <div class="columns">
+                            <div class="column">
+                                <h1 class="title">
+                                What is a game?
+                                </h1>
+                                <h2 class="content">
+                                    <p>A game is something that people do for fun. It is different from work. In many games, people play against other people.</p>
+
+                                <p>There are different kinds of games. For example, in video games, people often use controllers to control what happens on a screen, such as a television screens. 
+                                    In board games, players often move pieces on a flat surface called a board. In card games, players use playing cards.</p>
+                                </h2>
+                            </div>
+                            <div class="column">
+                            <img src="https://allaboutonline.co.uk/wp-content/uploads/2016/06/AllAbout_ic_Game-Dev.png" alt="">
+                            </div>
+                        </div>    
+                    </section>
+
+                    <section class="container">
+                        <div class="columns">
+                            <div class="column">
+                                <img src="https://i.imgur.com/109OdMg.png" alt="">
+                            </div>
+                            <div class="column">
+                                <h1 class="title">
+                                    What makes a good game?
+                                </h1>
+                                <h2 class="content">        
+                                    <p>There are different kinds of games. For example, in video games, people often use controllers to control what happens on a screen, such as a television screens. 
+                                    In board games, players often move pieces on a flat surface called a board. In card games, players use playing cards.</p>
+                                </h2>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="hero-foot">
+
+                <div class="has-text-centered">
+                    <a class="button is-large is-dark animated bounceIn" href="#step2" v-smooth-scroll>
+                        <span class="icon is-medium">
+                            <i class="fas fa-angle-down fa-2x"></i>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="hero is-info is-fullheight is-bold" id="step2">
+            <div class="hero-body">
+                    <section class="container">
+                        <div class="columns">
+                            <div class="column is-6">
+                                <h1 class="title">
+                                Idea
+                                </h1>
+                                <h2 class="content">
+                                    <p>Before diving into the creation of a game, it is important to come up with a unique idea. Without a unique idea it is increadebly hard to stand out from the crowd!</p>
+                                    <p>See if you can come up with a unique idea for a game! <span class="is-hidden-touch">Try using the idea generator! Once you have come up with an idea, you are ready to move on to the next section!</span></p>
+                                </h2>
+                            </div>
+                            <div class="column is-6">
+                                <idea-generator></idea-generator><!-- Maybe their idea character on mobile? -->
+                            </div>
+                        </div>    
+                    </section>
+            </div>
+            <div class="hero-foot">
+
+                <div class="has-text-centered">
+                    <a class="button is-large is-dark animated bounceIn" @click="nextStep" v-smooth-scroll>
+                        <span class="icon is-medium">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+</template>
+
+<script>
+export default {
+    methods: {
+        nextStep() {
+            this.$router.push('/concept')
+        }
+    }
+}
+</script>
+
+<style>
+
+</style>

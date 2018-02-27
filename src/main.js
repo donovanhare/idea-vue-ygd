@@ -19,6 +19,9 @@ Vue.component('tabs', Tabs);
 import TitlePage from './components/general/TitlePage.vue'
 Vue.component('title-page', TitlePage);
 
+import TitleButton from './components/general/TitleButton.vue'
+Vue.component('title-button', TitleButton);
+
 import Quiz from './components/activities/Quiz.vue'
 Vue.component('quiz', Quiz);
 

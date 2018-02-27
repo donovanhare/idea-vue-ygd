@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-info is-small" id="step1-2" v-for="(question, index) in quiz[qid].questions" :key="index" v-if="index <= quiz[qid].currentQuestion">
+        <section class="hero is-info is-small" id="quiz" v-for="(question, index) in quiz[qid].questions" :key="index" v-if="index <= quiz[qid].currentQuestion">
             <div class="hero-body">
                 <div class="container">
                 <h1 class="title">
@@ -62,11 +62,11 @@ export default {
                 {
                     questions: [
                         {
-                            question: '1. What time is it?',
+                            question: '1. What is game development?',
                             options: [
-                                {option: '12am', correct: false, selected: false, prefix: 'A.'},
-                                {option: '1pm', correct: false, selected: false, prefix: 'B.'},
-                                {option: 'None of the above', correct: true, selected: false, prefix: 'C.'},
+                                {option: 'The storyline of a game progressing.', correct: false, selected: false, prefix: 'A.'},
+                                {option: 'The combiniation of several elements coming together to form a cohisive package called a game', correct: true, selected: false, prefix: 'B.'},
+                                {option: 'None of the above', correct: false, selected: false, prefix: 'C.'},
                             ],
                             answers: 1
                         },
@@ -79,6 +79,15 @@ export default {
                             hint: 'Can we actually tell what time it is from the question?',
                             answers: 1
                         },
+                        {
+                            question: 'What is the first step in any game development process?',
+                            options: [
+                                {option: 'Coming up win an idea', correct: true, selected: false, prefix: 'A.'},
+                                {option: 'Coding the core game mechanics.', correct: false, selected: false, prefix: 'B.'},
+                                {option: 'Create an immersive open world.', correct: false, selected: false, prefix: 'C.'},
+                            ],
+                            answers: 1
+                        }
                     ],
                     currentQuestion: 0,
                     completed: false
