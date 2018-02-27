@@ -12,9 +12,10 @@
                     Welcome !
                     </p>
                     <p class="subtitle">
-                    Welcome to the <strong>BAFTA Young Game Designers</strong> iDEA pathway! We are delighted that you are interested in learning more about game design and cannot wait to see all of the fantastic new ideas you create.
-                    <!-- You are about to embark on the <strong>YGD Game Concept Badge</strong>!  -->
-                    <br/><br/>This badge has a number of activities for you to complete, don't worry if you have to leave the badge - your progress will be saved.
+                        Welcome to the <strong>BAFTA Young Game Designers</strong> iDEA pathway! We are delighted that you are interested in learning more about game design and cannot wait to see all of the fantastic new ideas you create.
+                        <!-- You are about to embark on the <strong>YGD Game Concept Badge</strong>!  -->
+                        <br/><br/>This badge has a number of activities for you to complete, don't worry if you have to leave the badge - your progress will be saved.
+                        <p v-text="getSlide"></p>
                     </p>
                     <div class="has-text-centered">
                     <a class="button is-dark is-large animated bounceIn" @click="nextStep">Start Badge</a>
@@ -34,6 +35,11 @@
 
 <script>
 export default {
+    computed: {
+        getSlide() {
+            return this.$store.getters.getSlide;
+        }
+    },
     methods: {
         nextStep() {
             this.$router.push('/getting-started')
