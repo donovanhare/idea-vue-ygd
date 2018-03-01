@@ -11,18 +11,22 @@ Vue.config.productionTip = false
 import vueSmoothScroll from 'vue-smooth-scroll'
 Vue.use(vueSmoothScroll)
 
+import Slide from './components/general/Slide.vue'
 import Banner from './components/general/Banner.vue'
 import Tabs from './components/general/Tabs.vue'
 import TitlePage from './components/general/TitlePage.vue'
 import TitleButton from './components/general/TitleButton.vue'
+import NextSlide from './components/general/NxtSlideBtn.vue'
 
 import Quiz from './components/activities/Quiz.vue'
 import IdeaGenerator from './components/activities/IdeaGenerator.vue'
 
+Vue.component('slide', Slide);
 Vue.component('banner', Banner);
 Vue.component('tabs', Tabs);
 Vue.component('title-page', TitlePage);
 Vue.component('title-button', TitleButton);
+Vue.component('next-slide', NextSlide);
 
 Vue.component('quiz', Quiz);
 Vue.component('idea-generator', IdeaGenerator);
@@ -41,7 +45,7 @@ Vue.mixin({
 
       currentSlide(slide) {
           //is current slide visible
-          return this.$store.getters.slide > slide;
+          return this.$store.getters.slide >= slide;
       }
   }
 })

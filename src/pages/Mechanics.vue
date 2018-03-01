@@ -4,7 +4,7 @@
             Learn about Goals, Challenges & Rewards in a game.
             <title-button>Continue</title-button>            
         </title-page>
-        <quiz :qid=1 v-if="currentSlide(0)"></quiz>
+        <quiz :qid=1 v-if="currentSlide(1)"></quiz>
     </div>
 
 </template>
