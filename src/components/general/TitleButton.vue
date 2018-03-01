@@ -1,5 +1,7 @@
 <template>
-    <a class="button is-dark is-medium animated bounceIn" :href="link" @click="nextStep" v-smooth-scroll><slot></slot></a>            
+    <div>
+        <br>
+    </div>
 </template>
 
 <script>

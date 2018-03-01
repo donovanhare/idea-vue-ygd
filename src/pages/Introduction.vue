@@ -18,7 +18,7 @@
 
                     </p>
                     <div class="has-text-centered">
-                    <a class="button is-dark is-large animated bounceIn" @click="nextStep">Start Badge</a>
+                        <title-button>Start Badge</title-button>
                     </div>
                 </div>
             </div>

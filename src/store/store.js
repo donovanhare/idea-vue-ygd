@@ -3,11 +3,7 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-const state = {
-  currentSlide: 0,
-  totalSlides: 0,
-  nextSlideUrl: '/',
-  
+const state = {  
   page: 0,
   pages: [
     {
@@ -64,19 +60,6 @@ const mutations = {
     page(state, page) {
         state.page = page;
     },
-
-    // resetSlides(state) {
-    //     state.currentSlide = 0;
-    // },
-
-    // setNextSlideUrl(state, url) {
-    //     state.nextSlideUrl = url;
-    // },
-
-    // setTotalSlides(state, total) {
-    //     state.totalSlides = total;
-    // }
-
 }
 
 const actions = {

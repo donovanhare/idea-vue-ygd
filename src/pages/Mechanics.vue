@@ -1,7 +1,7 @@
 <template>
     <div>
         <title-page title="Mechanics" :pid=2>
-            Learn about Goals, Challenges & Rewards in a game.</br></br>
+            Learn about Goals, Challenges & Rewards in a game.
             <title-button>Continue</title-button>            
         </title-page>
         <quiz :qid=1 v-if="currentSlide(0)"></quiz>

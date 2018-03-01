@@ -49,7 +49,7 @@
             <div class="hero-foot">
 
                 <div class="has-text-centered">
-                    <a class="button is-large is-dark animated bounceIn" @click="nextStep" v-smooth-scroll>
+                    <a class="button is-large is-dark animated bounceIn" @click.once="nextStep" v-smooth-scroll>
                         <span class="icon is-medium">
                             <i class="fas fa-angle-down fa-2x"></i>
                         </span>
@@ -82,7 +82,7 @@
             <div class="hero-foot">
 
                 <div class="has-text-centered">
-                    <a class="button is-large is-dark animated bounceIn" @click="nextStep" v-smooth-scroll>
+                    <a class="button is-large is-dark animated bounceIn" @click.once="nextStep" v-smooth-scroll>
                         <span class="icon is-medium">
                             <i class="fas fa-check"></i>
                         </span>

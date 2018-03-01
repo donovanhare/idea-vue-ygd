@@ -35,7 +35,7 @@
                             <h2 class="subtitle">Quiz completed successfully!</h2>
                         </div>
                         <div class="column">
-                            <a class="button is-dark is-medium animated bounceIn" @click="nextStep">Next Section</a>            
+                            <a class="button is-dark is-medium animated bounceIn" @click.once="nextStep">Next Section</a>            
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,7 @@ export default {
           }
           
           option.selected = true;
-          this.scrollToEnd(); //check that it is the last answer in the question
+           //check that it is the last answer in the question
           if (option.correct == 1) {
               //and if meets iscompleted
             // alert('correct');
@@ -249,10 +249,15 @@ export default {
                 if(quiz.currentQuestion + 1 > quiz.questions.length) {
                     quiz.completed = true;
                 }
+                this.scrollToEnd();
+                return;
             }
            
             //next question
             return;
+          } else {
+              this.scrollToEnd();
+              return
           }
 
         //   alert('incorrect')

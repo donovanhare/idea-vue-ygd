@@ -29,7 +29,7 @@ Vue.component('idea-generator', IdeaGenerator);
 
 Vue.mixin({
   methods: {
-      nextStep() {
+      nextStep($event) {
           if(this.$store.getters.slide < this.$store.getters.total) {
               this.$store.commit('nextSlide');
               $("html, body").animate({ scrollTop: $(document).height() }, 1000);
