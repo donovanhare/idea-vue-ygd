@@ -27,7 +27,7 @@ const state = {
     {
         name: 'Mechanics',
         current: 0,
-        total: 1,
+        total: 2,
         next: '/'
     },
   ]

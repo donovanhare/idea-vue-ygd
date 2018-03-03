@@ -5,6 +5,7 @@
             <title-button>Continue</title-button>                        
         </title-page>
 
+        <slide :sid=1>
             <section class="container">
                 <div class="columns">
                     <div class="column">
@@ -19,6 +20,7 @@
                         </h2>
                     </div>
                     <div class="column">
+                    <img src="../assets/imgs/controller.png" alt="">
                     </div>
                 </div>    
             </section>
@@ -26,6 +28,7 @@
             <section class="container">
                 <div class="columns">
                     <div class="column">
+                        <img src="../assets/imgs/109OdMg.png" alt="">
                     </div>
                     <div class="column">
                         <h1 class="title">
@@ -42,6 +45,7 @@
             <next-slide slot="foot"></next-slide>                
         </slide>
 
+        <slide :sid=2>
             <div class="columns">
                 <div class="column is-6">
                     <h1 class="title">
