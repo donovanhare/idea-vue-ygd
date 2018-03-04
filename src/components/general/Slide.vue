@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-info is-fullheight is-bold" id="step1" v-if="currentSlide(sid)">
+    <section class="hero is-info is-fullheight is-bold" v-if="currentSlide(sid)">
         <div class="hero-head">
             <slot name="head"></slot>
         </div>        

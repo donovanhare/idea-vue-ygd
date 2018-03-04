@@ -21,6 +21,7 @@ import NextSlide from './components/general/NxtSlideBtn.vue'
 
 import Quiz from './components/activities/Quiz.vue'
 import IdeaGenerator from './components/activities/IdeaGenerator.vue'
+import Video from './components/activities/Video.vue'
 
 Vue.component('slide', Slide);
 Vue.component('banner', Banner);
@@ -31,6 +32,7 @@ Vue.component('next-slide', NextSlide);
 
 Vue.component('quiz', Quiz);
 Vue.component('idea-generator', IdeaGenerator);
+Vue.component('youtube', Video);
 
 Vue.mixin({
   methods: {

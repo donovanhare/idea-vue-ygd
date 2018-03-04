@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div v-if="currentSlide(sid)">
         <section class="hero is-info is-small" id="quiz" v-for="(question, index) in quiz[qid].questions" :key="index" v-if="index <= quiz[qid].currentQuestion">
             <div class="hero-body">
                 <div class="container">
@@ -54,6 +54,10 @@ export default {
         onComplete: {
             type: String,
             default: '/'
+        },
+        sid: {
+            type: Number,
+            default: 0
         }
     },
     data() {

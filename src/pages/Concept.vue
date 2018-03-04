@@ -18,7 +18,7 @@
             <next-slide slot="foot"></next-slide>
         </slide>
 
-        <quiz :qid=0 onComplete="/mechanics" v-if="currentSlide(2)"></quiz>
+        <quiz :sid=2 :qid=0 onComplete="/mechanics"></quiz>
     </div>
 </template>
 

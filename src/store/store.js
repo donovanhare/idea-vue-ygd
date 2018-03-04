@@ -22,12 +22,12 @@ const state = {
         name: 'Concept',
         current: 0,
         total: 2,
-        next: '/mechanics'
+        next: '/game-systems'
     },
     {
-        name: 'Mechanics',
+        name: 'GameSystems',
         current: 0,
-        total: 2,
+        total: 3,
         next: '/'
     },
   ]
