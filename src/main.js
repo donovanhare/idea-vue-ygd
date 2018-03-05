@@ -12,6 +12,9 @@ Vue.config.productionTip = false
 import vueSmoothScroll from 'vue-smooth-scroll'
 Vue.use(vueSmoothScroll)
 
+import draggable from 'vuedraggable'
+Vue.component('draggable', draggable);
+
 import Slide from './components/general/Slide.vue'
 import Banner from './components/general/Banner.vue'
 import Tabs from './components/general/Tabs.vue'
@@ -22,6 +25,7 @@ import NextSlide from './components/general/NxtSlideBtn.vue'
 import Quiz from './components/activities/Quiz.vue'
 import IdeaGenerator from './components/activities/IdeaGenerator.vue'
 import Video from './components/activities/Video.vue'
+import SortGame from './components/activities/SortGame.vue'
 
 Vue.component('slide', Slide);
 Vue.component('banner', Banner);
@@ -33,6 +37,7 @@ Vue.component('next-slide', NextSlide);
 Vue.component('quiz', Quiz);
 Vue.component('idea-generator', IdeaGenerator);
 Vue.component('youtube', Video);
+Vue.component('sort-game', SortGame);
 
 Vue.mixin({
   methods: {

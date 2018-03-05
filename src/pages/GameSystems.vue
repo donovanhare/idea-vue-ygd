@@ -11,14 +11,20 @@
 
             <next-slide slot="foot"></next-slide>
         </slide>
+
         <slide :sid=2>
+            <sort-game></sort-game>
+            <next-slide slot="foot"></next-slide>            
+        </slide>
+
+        <slide :sid=3>
             <youtube title="Game Systems" youtubeId="2zFGVJafHd4">
                 In this episode of YGD Inspired we will learn about the programming and mechanics behind games. Pay attention, in the next section you will be quized!
             </youtube>
 
             <next-slide slot="foot"></next-slide>
         </slide>
-        <quiz :sid=3 :qid=1></quiz>
+        <quiz :sid=4 :qid=1></quiz>
     </div>
 
 </template>

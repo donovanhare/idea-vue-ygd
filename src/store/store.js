@@ -27,7 +27,7 @@ const state = {
     {
         name: 'GameSystems',
         current: 0,
-        total: 3,
+        total: 4,
         next: '/'
     },
   ]
