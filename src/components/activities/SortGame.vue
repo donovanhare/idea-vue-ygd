@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-4by3">
-                            <img src="https://ubistatic19-a.akamaihd.net/resource/en-au/game/news/assassins-creed/ac-origins/acr_keyart_1920x1080-logo_294484.jpg" alt="Placeholder image">
+                            <img src="../../assets/imgs/sort/AssassinsCreed.jpg" alt="Placeholder image">
                         </figure>
                     </div>
                     <div class="card-content">
@@ -21,7 +21,7 @@
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-4by3">
-                            <img src="http://cdn.miscellaneoushi.com/1920x1200/20121023/video%20games%20sniper%20elite%202%201920x1200%20wallpaper_www.miscellaneoushi.com_33.jpg" alt="Placeholder image">
+                            <img src="../../assets/imgs/sort/Sniper.jpg" alt="Placeholder image">
                         </figure>
                     </div>
                     <div class="card-content">
@@ -35,7 +35,7 @@
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-4by3">
-                            <img src="http://www.vizz.co/wp-content/uploads/2014/12/Tim-the-Fox-Jigsaw-Puzzle-Game-for-Kids-805x450.jpg" alt="Placeholder image">
+                            <img src="../../assets/imgs/sort/TimTheFox.jpg" alt="Placeholder image">
                         </figure>
                     </div>
                     <div class="card-content">
@@ -51,7 +51,7 @@
 
 <script>
 export default {
-
+    
 }
 </script>
 
