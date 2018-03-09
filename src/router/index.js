@@ -4,6 +4,7 @@ import Introduction from '@/pages/Introduction'
 import Concept from '@/pages/Concept'
 import GameSystems from '@/pages/GameSystems'
 import GettingStarted from '@/pages/GettingStarted'
+import SoundMotion from '@/pages/SoundMotion'
 
 Vue.use(Router)
 
@@ -29,6 +30,12 @@ export default new Router({
       path: '/game-systems',
       name: 'GameSystems',
       component: GameSystems
+    },
+    {
+      path: '/sound-motion',
+      name: 'SoundMotion',
+      component: SoundMotion
+
     }
   ]
 })

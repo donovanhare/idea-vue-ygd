@@ -1,6 +1,6 @@
 <template>
     <div>
-        <title-page title="Concept" :pid=1>
+        <title-page title="Concept" :tabid=1>
             In this section we will learn about the importance of concepting a game.
             <title-button>Continue</title-button>
         </title-page>

@@ -2,7 +2,7 @@
     <section class="hero is-info is-fullheight is-bold" id="title">
         <div class="hero-head">
             <banner></banner>
-            <tabs :selected="pid"></tabs>          
+            <tabs :selected="tabid"></tabs>          
         </div>
         <div class="hero-body">
             <div class="container">
@@ -17,7 +17,7 @@
 
 <script>
 export default {
-    props: ['title', 'pid']
+    props: ['title', 'tabid']
 }
 </script>
 

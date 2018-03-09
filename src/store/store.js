@@ -27,7 +27,13 @@ const state = {
     {
         name: 'GameSystems',
         current: 0,
-        total: 4,
+        total: 5,
+        next: '/sound-motion'
+    },
+    {
+        name: 'SoundMotion',
+        current: 0,
+        total: 1,
         next: '/'
     },
   ]

@@ -1,6 +1,6 @@
 <template>
     <div class="has-text-centered">
-        <a class="button is-large is-dark animated bounceIn" @click.once="nextStep" v-smooth-scroll>
+        <a class="button is-large is-dark animated bounceIn" @click.once="nextStep">
             <span class="icon is-medium">
                 <i class="fas fa-angle-down fa-2x"></i>
             </span>

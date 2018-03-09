@@ -1,6 +1,6 @@
 <template>
     <div>
-        <title-page title="Getting Started" :pid=0>
+        <title-page title="Getting Started" :tabid=0>
             <p>First we will get you up to speed with games.</p>
             <title-button>Continue</title-button>                        
         </title-page>
