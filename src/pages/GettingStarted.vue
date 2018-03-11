@@ -1,7 +1,7 @@
 <template>
     <div>
         <title-page title="Getting Started" :tabid=0>
-            <p>First we will get you up to speed with games.</p>
+            <p>First, we will get you up to speed with games.</p>
             <title-button>Continue</title-button>                        
         </title-page>
 
@@ -10,13 +10,13 @@
                 <div class="columns">
                     <div class="column">
                         <h1 class="title">
-                        What is a game?
+                            What is a game?
                         </h1>
                         <h2 class="content">
                             <p>A game is something that people do for fun. It is different from work. In many games, people play against other people.</p>
 
-                        <p>There are different kinds of games. For example, in video games, people often use controllers to control what happens on a screen, such as a television screens. 
-                            In board games, players often move pieces on a flat surface called a board. In card games, players use playing cards.</p>
+                            <p>There are different kinds of games. For example, in video games, people often use controllers to control what happens on a screen, such as a television screens. 
+                                In board games, players often move pieces on a flat surface called a board. In card games, players use playing cards.</p>
                         </h2>
                     </div>
                     <div class="column">
@@ -34,9 +34,9 @@
                         <h1 class="title">
                             What makes a good game?
                         </h1>
-                        <h2 class="content">        
-                            <p>There are different kinds of games. For example, in video games, people often use controllers to control what happens on a screen, such as a television screens. 
-                            In board games, players often move pieces on a flat surface called a board. In card games, players use playing cards.</p>
+                        <h2 class="content">
+                            <p>Everyone has their own opinion about what makes a good game. But a game usually needs good graphics, interesting stories, characters and nice music to make it enjoyable. </p>
+                            <p>Other aspects that are important include gameplay, difficulty, feedback.</p>
                         </h2>
                     </div>
                 </div>
@@ -54,6 +54,14 @@
                     <h2 class="content">
                         <p>Before diving into the creation of a game, it is important to come up with a unique idea. Without a unique idea it is increadebly hard to stand out from the crowd!</p>
                         <p>See if you can come up with a unique idea for a game! <span class="is-hidden-touch">Try using the idea generator! Once you have come up with an idea, you are ready to move on to the next section!</span></p>
+                        <div class="columns">
+                            <div class="column is-hidden-touch">
+                                <img src="../assets/imgs/ygd15illustrations01-concept.jpg">                                
+                            </div>
+                            <div class="column">
+                                <img src="../assets/imgs/ygd15illustrations01-maker.jpg">
+                            </div>
+                        </div>
                     </h2>
                 </div>
                 <div class="column is-6">

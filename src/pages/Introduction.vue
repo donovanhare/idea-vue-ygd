@@ -7,13 +7,20 @@
 
         <div class="box animated fadeIn" style="background-color: rgba(0,0,0,0.1)">              
             <h1 class="title has-text-centered">Game Concept</h1>
-            <p class="subtitle">
-            Welcome !
+            <p class="subtitle has-text-centered">
+            Welcome to the <strong>BAFTA Young Game Designers</strong> iDEA pathway!
             </p>
-            <p class="subtitle">
-                Welcome to the <strong>BAFTA Young Game Designers</strong> iDEA pathway! We are delighted that you are interested in learning more about game design and cannot wait to see all of the fantastic new ideas you create.
+            <p class="content">
+                We are delighted that you are interested in learning more about game design and cannot wait to see all of the fantastic new ideas you create.
                 <!-- You are about to embark on the <strong>YGD Game Concept Badge</strong>!  -->
-                <br/><br/>This badge has a number of activities for you to complete, don't worry if you have to leave the badge - your progress will be saved.
+                <br/><br/>This badge has a number of activities for you to complete, don't worry if you have to leave the badge, your progress will be saved.
+                <br/><br/>We will cover a range of learning outcomes, by the end of the badge you will...
+                <ul>
+                    <li>Build a solid understanding as to what game development is.</li>
+                    <li>Learn key terms assosiciate with game development.</li>
+                    <li>Learn why games are made how they are.</li>
+                    <li>Be able to plan your very own game! Be ready to plan your game for YGD 2018!</li>
+                </ul>
 
             </p>
             <div class="has-text-centered">
@@ -38,5 +45,7 @@ export default {
 </script>
 
 <style>
-
+.box {
+    color:white;
+}
 </style>
