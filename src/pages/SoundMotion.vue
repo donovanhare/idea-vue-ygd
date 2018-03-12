@@ -18,7 +18,7 @@
 <script>
 export default {
     mounted() {
-        this.$store.commit('page', 4);
+        this.$store.commit('page', 5);
     }
 }
 </script>

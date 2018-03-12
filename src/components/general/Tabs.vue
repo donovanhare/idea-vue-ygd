@@ -14,10 +14,10 @@ export default {
             sections: [
                 'Introduction',
                 'Concept',
-                'Goals, Challenges & Rewards',
-                'Progression',
-                'User Expereience',
-                'Art, Level & Sound Design',
+                'Design',
+                'Systems',
+                'Sound & Motion',
+                'Marketing & Community',
                 'Finish'
             ]
         }

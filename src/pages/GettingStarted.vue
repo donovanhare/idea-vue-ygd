@@ -49,7 +49,7 @@
             <div class="columns">
                 <div class="column is-6">
                     <h1 class="title">
-                    Idea
+                    Come up with an idea!
                     </h1>
                     <h2 class="content">
                         <p>Before diving into the creation of a game, it is important to come up with a unique idea. Without a unique idea it is increadebly hard to stand out from the crowd!</p>

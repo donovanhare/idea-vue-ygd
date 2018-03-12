@@ -22,12 +22,18 @@ const state = {
         name: 'Concept',
         current: 0,
         total: 2,
+        next: '/design'
+    },
+    {
+        name: 'Design',
+        current: 0,
+        total: 3,
         next: '/game-systems'
     },
     {
         name: 'GameSystems',
         current: 0,
-        total: 5,
+        total: 2,
         next: '/sound-motion'
     },
     {
