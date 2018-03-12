@@ -12,6 +12,11 @@
                 </h2>
             </div>
         </div>
+        <div slot="foot">
+            <div class="image has-text-centered">
+                <img src="../../assets/imgs/banner-PalaceSkyline.svg" alt="">
+            </div>
+        </div>
     </section>
 </template>
 

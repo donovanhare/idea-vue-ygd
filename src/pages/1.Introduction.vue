@@ -14,12 +14,12 @@
                 We are delighted that you are interested in learning more about game design and cannot wait to see all of the fantastic new ideas you create.
                 <!-- You are about to embark on the <strong>YGD Game Concept Badge</strong>!  -->
                 <br/><br/>This badge has a number of activities for you to complete, don't worry if you have to leave the badge, your progress will be saved.
-                <br/><br/>We will cover a range of learning outcomes, by the end of the badge you will...
+                <br/><br/>There is lots to learn, in this badge you will...
                 <ul>
                     <li>Build a solid understanding as to what game development is.</li>
                     <li>Learn key terms assosiciate with game development.</li>
                     <li>Learn why games are made how they are.</li>
-                    <li>Be able to plan your very own game! Be ready to plan your game for YGD 2018!</li>
+                    <li>Be ready to plan your game for YGD 2018!</li>
                 </ul>
 
             </p>

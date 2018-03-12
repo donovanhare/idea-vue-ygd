@@ -26,5 +26,7 @@ export default {
 </script>
 
 <style>
-
+.is-active {
+    border-radius: 0px;
+}
 </style>

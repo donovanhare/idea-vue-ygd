@@ -40,6 +40,18 @@ const state = {
         name: 'SoundMotion',
         current: 0,
         total: 1,
+        next: '/marketing-community'
+    },
+    {
+        name: 'Marketing Community',
+        current: 0,
+        total: 1,
+        next: '/finish'
+    },
+    {
+        name: 'Finish',
+        current: 0,
+        total: 1,
         next: '/'
     },
   ]
