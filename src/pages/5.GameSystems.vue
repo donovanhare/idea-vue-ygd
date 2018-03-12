@@ -1,6 +1,6 @@
 <template>
     <div>
-        <title-page title="Game Systems" :tabid=2>
+        <title-page title="Game Systems" :tabid=3>
             Learn about Goals, Challenges & Rewards in a game.
             <title-button>Continue</title-button>            
         </title-page>
