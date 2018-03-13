@@ -21,7 +21,7 @@ const state = {
     {
         name: 'Concept',
         current: 0,
-        total: 2,
+        total: 3,
         next: '/design'
     },
     {
