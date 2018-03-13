@@ -56,10 +56,10 @@
                         <p>See if you can come up with a unique idea for a game! <span class="is-hidden-touch">Try using the idea generator! Once you have come up with an idea, you are ready to move on to the next section!</span></p>
                         <div class="columns">
                             <div class="column is-hidden-touch">
-                                <img src="../assets/imgs/ygd15illustrations01-concept.jpg">                                
+                                <img src="../assets/imgs/ygd15illustrations01-concept.png">                                
                             </div>
                             <div class="column">
-                                <img src="../assets/imgs/ygd15illustrations01-maker.jpg">
+                                <img src="../assets/imgs/ygd15illustrations01-maker.png">
                             </div>
                         </div>
                     </h2>
