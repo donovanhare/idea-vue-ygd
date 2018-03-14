@@ -48,6 +48,7 @@
 import conceptQuiz from './quiz/concept.json'
 import mechanicsQuiz from './quiz/mechanics.json'
 import soundMotionQuiz from './quiz/sound-motion.json'
+import marketingQuiz from './quiz/marketing.json'
 export default {
     props: {
         qid: {
@@ -68,7 +69,8 @@ export default {
             quiz: [
                 conceptQuiz,
                 mechanicsQuiz,
-                soundMotionQuiz
+                soundMotionQuiz,
+                marketingQuiz
             ]
         }
     },

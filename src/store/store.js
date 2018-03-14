@@ -45,7 +45,7 @@ const state = {
     {
         name: 'Marketing Community',
         current: 0,
-        total: 1,
+        total: 2,
         next: '/finish'
     },
     {

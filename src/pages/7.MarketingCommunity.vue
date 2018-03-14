@@ -12,6 +12,8 @@
 
             <next-slide slot="foot"></next-slide>
         </slide>
+
+        <quiz :sid=2 :qid=3 onComplete="/finish"></quiz>        
   </div>
 </template>
 

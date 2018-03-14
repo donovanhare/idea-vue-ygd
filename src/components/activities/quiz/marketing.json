@@ -1,0 +1,109 @@
+{
+	"questions": [{
+			"question": "1. What is an important goal when marketing your game?",
+			"options": [
+                {
+					"option": "Finding bugs",
+					"correct": false,
+					"selected": false,
+					"prefix": "A."
+				},
+				{
+					"option": "Getting to know your target audience",
+					"correct": true,
+					"selected": false,
+					"prefix": "B."
+				},
+				{
+					"option": "Getting feedback for a future game idea",
+					"correct": false,
+					"selected": false,
+					"prefix": "C."
+				}
+			],
+			"hint": "Hint: Try watching the video for a recap!",
+			"answers": 1
+		},
+		{
+			"question": "2. What does QA in games stand for?",
+			"options": [
+                {
+					"option": "Quietly Assuring",
+					"correct": false,
+					"selected": false,
+					"prefix": "A."
+				},
+				{
+					"option": "Quickly Assimilating",
+					"correct": false,
+					"selected": false,
+					"prefix": "B."
+				},
+				{
+					"option": "Quashing Alliances",
+					"correct": false,
+					"selected": false,
+					"prefix": "C."
+				},
+				{
+					"option": "Quality Assurance",
+					"correct": true,
+					"selected": false,
+					"prefix": "D."
+				}
+			],
+			"hint": "Hint: Why not check out the BAFTA YGD game Glossary?",
+			"answers": 1
+		},
+		{
+			"question": "What is the role of a community manager in games?",
+			"options": [
+                {
+					"option": "To feedback player responses to the development team in order to improve the game further",
+					"correct": true,
+					"selected": false,
+					"prefix": "A."
+				},
+				{
+					"option": "To boost morale when players don’t win in game",
+					"correct": false,
+					"selected": false,
+					"prefix": "B."
+				},
+				{
+					"option": "To play the game to find bugs and glitches",
+					"correct": false,
+					"selected": false,
+					"prefix": "C."
+				}
+			],
+			"answers": 1
+		},
+		{
+			"question": "Why is it important to get people to test your game before you release it?",
+			"options": [
+                {
+					"option": "To identify any potential bugs or glitches that need to be fixed",
+					"correct": true,
+					"selected": false,
+					"prefix": "A."
+				},
+				{
+					"option": "To get feedback from your potential target audience",
+					"correct": true,
+					"selected": false,
+					"prefix": "B."
+				},
+				{
+					"option": "To make friends",
+					"correct": false,
+					"selected": false,
+					"prefix": "C."
+				}
+			],
+			"answers": 2
+		}
+	],
+	"currentQuestion": 0,
+	"completed": false
+}
