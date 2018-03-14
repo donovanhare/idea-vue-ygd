@@ -27,5 +27,15 @@ export default {
 </script>
 
 <style>
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE Polyfill for hero footer */
+    .is-fullheight {
+        height: 100vh;
+    }
 
+    .hero-content {
+        align-items: center;
+    }
+     
+}
 </style>
