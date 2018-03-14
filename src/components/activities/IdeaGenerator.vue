@@ -12,6 +12,6 @@ export default {
 
 <style>
 .iframe-loading {
-  background:url(../../assets/imgs/loading.gif) center center no-repeat;
+  background: url('../../assets/imgs/badge_logo1.png') center center no-repeat;
  }
 </style>

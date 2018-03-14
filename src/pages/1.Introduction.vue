@@ -2,7 +2,7 @@
     <slide>
         <div slot="head">
             <banner></banner>
-            <tabs selected="0"></tabs>
+            <tabs selected="-1"></tabs>
         </div>
 
         <div class="box animated fadeIn" style="background-color: rgba(0,0,0,0.1)">              

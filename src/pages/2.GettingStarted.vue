@@ -61,7 +61,7 @@
             <next-slide slot="foot"></next-slide>
         </slide>
 
-        <slide :sid=3>
+        <!-- <slide :sid=3>
             <h5 class="title">Platforms</h5>            
             <p class="subtitle">When concepting a game, you need to think about the platform that it will be played on. The platform the game is designed for can have a huge effect on the game produced. </p>
             <p class="subtitle">Below is some more information on each platform category, take some time to read through the information, you may need it later on! </p>
@@ -93,7 +93,7 @@
             </div>
 
             <next-slide slot="foot"></next-slide>            
-        </slide>
+        </slide> -->
 
     </div>
 </template>

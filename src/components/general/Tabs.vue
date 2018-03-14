@@ -12,7 +12,7 @@ export default {
     data() {
         return {
             sections: [
-                'Introduction',
+                'Getting Started',
                 'Concept',
                 'Design',
                 'Systems',
