@@ -1,0 +1,69 @@
+{
+	"questions": [{
+			"question": "1. What is game development?",
+			"options": [{
+					"option": "The storyline of a game progressing.",
+					"correct": false,
+					"selected": false,
+					"prefix": "A."
+				},
+				{
+					"option": "The combination of several elements coming together to form a cohesive package called a game",
+					"correct": true,
+					"selected": false,
+					"prefix": "B."
+				},
+				{
+					"option": "None of the above",
+					"correct": false,
+					"selected": false,
+					"prefix": "C."
+				}
+			],
+			"answers": 1
+		},
+		{
+			"question": "2. What is a unique idea?",
+			"options": [{
+					"option": "An idea that has been done many times in the past.",
+					"correct": false,
+					"selected": false,
+					"prefix": "A."
+				},
+				{
+					"option": "An idea that has not been done in the past",
+					"correct": true,
+					"selected": false,
+					"prefix": "B."
+				}
+			],
+			"hint": "Can we actually tell what time it is from the question?",
+			"answers": 1
+		},
+		{
+			"question": "What is the first step in any game development process?",
+			"options": [{
+					"option": "Coming up win an idea",
+					"correct": true,
+					"selected": false,
+					"prefix": "A."
+				},
+				{
+					"option": "Coding the core game mechanics.",
+					"correct": false,
+					"selected": false,
+					"prefix": "B."
+				},
+				{
+					"option": "Create an immersive open world.",
+					"correct": false,
+					"selected": false,
+					"prefix": "C."
+				}
+			],
+			"answers": 1
+		}
+	],
+	"currentQuestion": 0,
+	"completed": false
+}
