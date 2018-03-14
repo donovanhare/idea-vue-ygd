@@ -6,7 +6,7 @@
         </title-page>
 
         <slide :sid=1>
-            <youtube title="Sound in montion" youtubeId="70crSlVGMRQ">
+            <youtube title="Sound in motion" youtubeId="70crSlVGMRQ">
                 Sound is one of the most important aspects of any game. Without it, games simply wouldn't be the same - find out more in this short video!
             </youtube>
 

@@ -48,7 +48,7 @@
         <slide :sid=2>
 
             <h5 class="title">What is a platform?</h5>
-            <p class="subtitle">'Platform' in the context of games generally refers to the device on which you play a game. There are three distinct platform categories in digital gaming, they are console, mobile and PC. Each platform differs drastically, offering players unique gaming experiences.</p>
+            <p class="subtitle">The <i>platform</i>, sometime referred to as <i>game platform</i>, is the term used to refer to the device on which a game is played. There are three distinct platforms in digital gaming, they are console, mobile and PC. Each platform differs drastically, offering players unique gaming experiences.</p>
             <br>
             <h5 class="title">What is an audience?</h5>
             <p class="subtitle">Audience simply refers to the people that play a game, just like a film's audience are the people watching the film!</p>
@@ -69,7 +69,7 @@
                 <div class="tile is-parent">
                     <article class="tile is-child ">
                         <h6 class="title">Mobile <span class="tag is-light is-pulled-right">Apple/Andriod</span></h6>
-                        <p>Mobile gaming is now the most popular way to play games. The popularity is largely down to portability, affordability & avalibilty of content (games).  Mobiles also benefit from features such as GPS, cameras, & gyroscopes all of which can be used to provide an interesting gaming experience. </p>
+                        <p>Mobile gaming is now the most popular way to play games. The popularity is largely down to portability, affordability & availability of content (games).  Mobiles also benefit from features such as GPS, cameras, & gyroscopes all of which can be used to provide an interesting gaming experience. </p>
                         <br><p>An example of a game that uses all three of those features is <b>Pokémon Go</b> which is a worldwide mega hit on this platform.</p>
                         
                     </article>

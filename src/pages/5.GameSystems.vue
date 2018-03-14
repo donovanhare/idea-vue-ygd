@@ -7,7 +7,7 @@
 
         <slide :sid=1>
             <youtube title="Game Systems" youtubeId="2zFGVJafHd4">
-                In this episode of YGD Inspired we will learn about the programming and mechanics behind games. Pay attention, in the next section you will be quized!
+                In this episode of YGD Inspired we will learn about the programming and mechanics behind games. Pay attention, in the next section you will be quizzed!
             </youtube>
 
             <next-slide slot="foot"></next-slide>

@@ -18,7 +18,7 @@
         </slide>
         
         <slide :sid=3>
-            <h5 class="title">Bonus: Download the Design Factsheet!</h5>
+            <h5 class="title">Bonus: Download the Design Fact Sheet!</h5>
             <h5 class="subtitle">You can print the sheet off and use it help you in your game development!</h5>
             <a href="http://ygd.bafta.org/sites/default/files/uploads/ygd17factSheet03.pdf" target="_blank" class="button is-dark">Download Design Sheet</a>
             <next-slide slot="foot"></next-slide>            

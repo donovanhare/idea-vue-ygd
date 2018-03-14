@@ -17,7 +17,7 @@
                 <br/><br/>There is lots to learn, in this badge you will...
                 <ul>
                     <li>Build a solid understanding as to what game development is.</li>
-                    <li>Learn key terms assosiciate with game development.</li>
+                    <li>Learn key terms associate with game development.</li>
                     <li>Learn why games are made how they are.</li>
                     <li>Be ready to plan your game for YGD 2018!</li>
                 </ul>

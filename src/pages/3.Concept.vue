@@ -37,7 +37,7 @@
             <div class="columns">
                 <div class="column">
                     <youtube title="The Concept" youtubeId="cRcHgvWu1bs">
-                        Watch the first episode of YGD Inspired. Once you have understood the importance of concepting, move on to the next section where you will be quized!
+                        Watch the first episode of YGD Inspired. Once you have understood the importance of concepting, move on to the next section where you will be quizzed!
                     </youtube>
                 </div>
             </div>

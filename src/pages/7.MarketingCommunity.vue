@@ -6,8 +6,8 @@
         </title-page>
 
         <slide :sid=1>
-            <youtube title="Sound in montion" youtubeId="3vIaKAE99kw">
-                Sound is one of the most important aspects of any game. Without it, games simply wouldn't be the same - find out more in this short video!
+            <youtube title="Prepare for takeoff!" youtubeId="3vIaKAE99kw">
+                Learn all about marketing and community in this short video!
             </youtube>
 
             <next-slide slot="foot"></next-slide>
