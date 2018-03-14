@@ -15,7 +15,7 @@ const state = {
     {
         name: 'Getting Started',
         current: 0,
-        total: 2,
+        total: 3,
         next: '/concept'
     },
     {
@@ -39,7 +39,7 @@ const state = {
     {
         name: 'SoundMotion',
         current: 0,
-        total: 1,
+        total: 2,
         next: '/marketing-community'
     },
     {

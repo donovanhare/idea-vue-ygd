@@ -1,7 +1,7 @@
 <template>
   <div>
-        <title-page title="Marketing & Communtiy" :tabid=5>
-            Learn about the importants of good marketing and building a community around your game.
+        <title-page title="Marketing & Community" :tabid=5>
+            Learn the importance of marketing and the benefits of building a strong community.  
             <title-button>Continue</title-button>            
         </title-page>
 

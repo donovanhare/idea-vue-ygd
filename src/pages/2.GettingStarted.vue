@@ -47,38 +47,52 @@
 
         <slide :sid=2>
 
-            <h5 class="title">What are platforms?</h5>
+            <h5 class="title">What is a platform?</h5>
             <p class="subtitle">'Platform' in the context of games generally refers to the device on which you play a game. There are three distinct platform categories in digital gaming, they are console, mobile and PC. Each platform differs drastically, offering players unique gaming experiences.</p>
-            <p class="subtitle">When concepting a game, you need to think about the platform that it will be played on. The platform the game is designed for can have a huge effect on the game produced. </p>
             <br>
+            <h5 class="title">What is an audience?</h5>
+            <p class="subtitle">Audience simply refers to the people that play a game, just like a film's audience are the people watching the film!</p>
+            <br>
+            <h5 class="title">What are game mechanics?</h5>
+            <p class="subtitle">A game’s core mechanic is the action of play: the activity players do over and over again in the game, like jumping, collecting, flying, or shooting.</p>
+            <br>
+            
+            
+            <next-slide slot="foot"></next-slide>
+        </slide>
 
+        <slide :sid=3>
+            <h5 class="title">Platforms</h5>            
+            <p class="subtitle">When concepting a game, you need to think about the platform that it will be played on. The platform the game is designed for can have a huge effect on the game produced. </p>
+            <p class="subtitle">Below is some more information on each platform category, take some time to read through the information, you may need it later on! </p>
             <div class="tile is-ancestor">
                 <div class="tile is-parent">
                     <article class="tile is-child ">
-                        <h6 class="title">Mobile</h6>
+                        <h6 class="title">Mobile <span class="tag is-light is-pulled-right">Apple/Andriod</span></h6>
                         <p>Mobile gaming is now the most popular way to play games. The popularity is largely down to portability, affordability & avalibilty of content (games).  Mobiles also benefit from features such as GPS, cameras, & gyroscopes all of which can be used to provide an interesting gaming experience. </p>
                         <br><p>An example of a game that uses all three of those features is <b>Pokémon Go</b> which is a worldwide mega hit on this platform.</p>
-                        <br><span class="tag is-light">Apple/Andriod</span>
+                        
                     </article>
                 </div>
 
                 <div class="tile is-parent">
                     <article class="tile is-child ">
-                        <h6 class="title">Console</h6>                    
+                        <h6 class="title">Console <span class="tag is-light is-pulled-right">PS4/Xbox One</span></h6>                    
                         <p>Another extremely popular platform to play games on. With standardised hardware, and huge online networks, console games are guaranteed to. Console further benefit from exclusive content. i.e last of us PS4</p>
-                        <br><span class="tag is-light">PS4/Xbox One</span>
+                        
                     </article>
                 </div>
                 
                 <div class="tile is-parent">
                     <article class="tile is-child ">
-                        <h6 class="title">PC</h6>                    
+                        <h6 class="title">PC <span class="tag is-light is-pulled-right">Alienware</span></h6>                    
                         <p>Higher barrier to entry but can provide a superior gaming experience in terms of graphics and controls. PCs can be many times more powerful than a console, but can be very expensive. The mouse and keyboard generally provide greater control over game mechanics.</p>
-                        <br><span class="tag is-light">Alienware</span>
+                        
                     </article>
                 </div>
             </div>
-            <next-slide slot="foot"></next-slide>
+
+            <next-slide slot="foot"></next-slide>            
         </slide>
 
     </div>

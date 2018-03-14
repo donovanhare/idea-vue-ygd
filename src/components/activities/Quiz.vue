@@ -232,6 +232,137 @@ export default {
                     ],
                     currentQuestion: 0,
                     completed: false
+                },
+                {
+                    questions: [
+                        {
+                            question: 'It is important to consider how your game will progress the longer players continue to play because:',
+                            options: [
+                                {
+                                    option:'It helps to keep the player interested',
+                                    correct: true,
+                                    selected:false,
+                                    prefix: 'A.'
+                                },
+                                {
+                                    option:'Players don’t enjoy easy games',
+                                    correct: false,
+                                    selected:false,
+                                    prefix: 'B.'
+                                },
+                                {
+                                    option:'Players never want to feel like they are winning',
+                                    correct: false,
+                                    selected:false,
+                                    prefix: 'C.'
+                                },
+                            ],
+                            hint: 'Hint: Think about what motivates you to play the games you enjoy.',
+                            answers: 1
+                        },
+                        {
+                            question: 'What game elements might change as a game progresses?',
+                            options: [
+                                {
+                                    option:'Environment',
+                                    correct: true,
+                                    selected:false,
+                                    prefix: 'A.'
+                                },
+                                {
+                                    option:'Characters',
+                                    correct: true,
+                                    selected:false,
+                                    prefix: 'B.'
+                                },
+                                {
+                                    option:'Non-Playable Characters (NPCs)',
+                                    correct: true,
+                                    selected:false,
+                                    prefix: 'C.'
+                                },
+                                {
+                                    option:'Rewards',
+                                    correct: true,
+                                    selected:false,
+                                    prefix: 'D.'
+                                },
+                            ],
+                            hint: 'Hint: Think about games you have played, do any of the options fit the bill?',
+                            answers: 4
+                        },
+                        {
+                            question: 'You can only work in the games industry if you know how to code.',
+                            options: [
+                                {
+                                    option:'True',
+                                    correct: false,
+                                    selected:false,
+                                    prefix: 'A.'
+                                },
+                                {
+                                    option:'False',
+                                    correct: true,
+                                    selected:false,
+                                    prefix: 'B.'
+                                },
+                            ],
+                            hint: 'Hint: Think back to the YGD Web Series Episode 3: Game Systems.',
+                            answers: 1
+                        },
+                        {
+                            question: 'What is Motion Capture in games?',
+                            options: [
+                                {
+                                    option:'The use of sports within a game',
+                                    correct: false,
+                                    selected:false,
+                                    prefix: 'A.'
+                                },
+                                {
+                                    option:'Videoing people as they interact with machinery',
+                                    correct: false,
+                                    selected:false,
+                                    prefix: 'B.'
+                                },
+                                {
+                                    option:'The recording of the movement of people or objects in order to animate them within a 2d or 3d environment',
+                                    correct: true,
+                                    selected:false,
+                                    prefix: 'C.'
+                                },
+                            ],
+                            hint: 'Hint: Why not watch Web Series Episode 4: Sound in Motion again?',
+                            answers: 1
+                        },
+                        {
+                            question: 'The person who creates the sound effects in games and film is known as a:',
+                            options: [
+                                {
+                                    option:'Environment Artist',
+                                    correct: false,
+                                    selected:false,
+                                    prefix: 'A.'
+                                },
+                                {
+                                    option:'Foley Artist',
+                                    correct: true,
+                                    selected:false,
+                                    prefix: 'B.'
+                                },
+                                {
+                                    option:'Doctor',
+                                    correct: false,
+                                    selected:false,
+                                    prefix: 'C.'
+                                },
+                            ],
+                            hint: 'Hint: Why not watch Web Series Episode 4: Sound in Motion again?',
+                            answers: 1
+                        },
+                    ],
+                    currentQuestion: 0,
+                    completed: false
                 }
             ]
         }
