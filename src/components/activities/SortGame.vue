@@ -1,7 +1,7 @@
 <template>
     <section>
-        <h5 class="title">Order these games according to sutiability for a target audience of 3-12 years old based off the design.</h5>
-        <h5 class="subtitle">Order from most suiteable to least suitable for the 3-12 year age range. Now we know how design can infulence. </h5>
+        <h5 class="title">Order these games according to suitability for a target audience of 3-12 years old based off the design.</h5>
+        <h5 class="subtitle">Order from most suitable to least suitable for the 3-12 year age range. Now we know how design can influence. </h5>
         <draggable class="columns" :options="{draggable:'.column'}" @start="drag=true" @end="drag=false">
             <div class="column" :class="{dragging:drag}">
                 <div class="card">

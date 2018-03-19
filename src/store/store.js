@@ -103,7 +103,7 @@ const mutations = {
 
 const actions = {
     getUser(context) {
-        axios.get("http://raspberrypi.host:3000/api/user")
+        axios.get("https://ygd.idea.org.uk/api/user")
             .then(response => {
                console.log(response); //if not error
                context.commit('user', response.data);
@@ -121,7 +121,7 @@ const actions = {
     postProgress({state}) {
         console.log('next page');
         console.log(state);
-        axios.post("http://raspberrypi.host:3000/api/progress", { progress: state.page })
+        axios.post("https://ygd.idea.org.uk/api/progress", { progress: state.page })
             .then(response => console.log(response))
             .catch(error => console.log(error)); 
     }
