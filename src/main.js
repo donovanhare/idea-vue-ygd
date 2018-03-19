@@ -48,6 +48,7 @@ Vue.mixin({
               return;                
           }
           
+          this.$store.dispatch('postProgress');
           this.$router.push(this.$store.getters.next);
       },
 

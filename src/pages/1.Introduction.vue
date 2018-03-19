@@ -39,6 +39,7 @@
 <script>
 export default {
     mounted() {
+        this.$store.dispatch('getUser');        
         this.$store.commit('page', 0);
     },
 }

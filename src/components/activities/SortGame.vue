@@ -11,9 +11,36 @@
                         </figure>
                     </div>
                     <div class="card-content">
-                        <div class="content">
-                        Assassins Creed
+                        <div class="level">
+                            <div class="level-item">
+                                <div class="content">
+                                Assassins Creed
+                                </div>
+                            </div>
+
+                            <div class="level-item">
+
+                                <div class="field has-addons">
+                                    <p class="control">
+                                        <a class="button is-info is-outlined">
+                                            <span>3+</span>
+                                        </a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-info is-outlined">
+                                        <span>9+</span>
+                                        </a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-info is-outlined">
+                                        <span>18+</span>
+                                        </a>
+                                    </p>
+                                </div>
+
+                            </div>
                         </div>
+                        
                     </div>  
                 </div>
             </div>

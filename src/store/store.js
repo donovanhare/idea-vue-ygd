@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import axios from 'axios'
+import router from '../router';
 
 Vue.use(Vuex)
 
@@ -54,7 +56,8 @@ const state = {
         total: 1,
         next: '/'
     },
-  ]
+  ],
+  user: null
 }
 
 const getters = {
@@ -72,6 +75,14 @@ const getters = {
 
     total(state) {
         return state.pages[state.page].total;
+    },
+
+    user(state) {
+        return state.user;
+    },
+
+    progress(state) {
+        return state.user.progress;
     }
 
 }
@@ -84,10 +95,36 @@ const mutations = {
     page(state, page) {
         state.page = page;
     },
+
+    user(state, user) {
+        state.user = user;
+    }
 }
 
 const actions = {
+    getUser(context) {
+        axios.get("http://raspberrypi.host:3000/api/user")
+            .then(response => {
+               console.log(response); //if not error
+               context.commit('user', response.data);
+               if(response.data.progress) {
+                    context.commit('page', response.data.progress);
+                    router.push(router.options.routes[response.data.progress + 1].path);
+                    console.log(router.options.routes[response.data.progress + 1].path);
+               }
+            })
+            .catch((error) => {                
+                console.log(error)
+            }); //redirect to idea
+    },
 
+    postProgress({state}) {
+        console.log('next page');
+        console.log(state);
+        axios.post("http://raspberrypi.host:3000/api/progress", { progress: state.page })
+            .then(response => console.log(response))
+            .catch(error => console.log(error)); 
+    }
 }
 
 export default new Vuex.Store({
