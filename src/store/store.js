@@ -124,6 +124,15 @@ const actions = {
         axios.post("https://ygd.idea.org.uk/api/progress", { progress: state.page })
             .then(response => console.log(response))
             .catch(error => console.log(error)); 
+    },
+
+    postResult({state}, result) {
+        axios.post("https://ygd.idea.org.uk/api/result", { result: result })
+            .then(response => {
+                console.log(response);
+                window.location.href = response.data.redirect_uri;
+            })
+            .catch(error => console.log(error)); 
     }
 }
 
