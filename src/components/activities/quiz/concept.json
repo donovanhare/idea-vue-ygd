@@ -2,20 +2,20 @@
 	"questions": [{
 			"question": "1. What is game development?",
 			"options": [{
-					"option": "The storyline of a game progressing.",
+					"option": "The storyline of a game.",
 					"correct": false,
 					"selected": false,
 					"prefix": "A."
 				},
 				{
-					"option": "The combination of several elements coming together to form a cohesive package called a game",
-					"correct": true,
+					"option": "The hardware in the console used to play video games.",
+					"correct": false,
 					"selected": false,
 					"prefix": "B."
 				},
 				{
-					"option": "None of the above",
-					"correct": false,
+					"option": "None of the above!",
+					"correct": true,
 					"selected": false,
 					"prefix": "C."
 				}
@@ -43,13 +43,13 @@
 		{
 			"question": "What is the first step in any game development process?",
 			"options": [{
-					"option": "Coming up win an idea",
+					"option": "Come up with an idea",
 					"correct": true,
 					"selected": false,
 					"prefix": "A."
 				},
 				{
-					"option": "Coding the core game mechanics.",
+					"option": "Code the core game mechanics.",
 					"correct": false,
 					"selected": false,
 					"prefix": "B."

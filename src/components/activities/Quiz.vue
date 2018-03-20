@@ -6,7 +6,7 @@
                 <h1 class="title">
                     {{question.question}}
                 </h1>
-                <h2 class="subtitle">Select the correct answer.</h2>
+                <h2 class="subtitle">Select the correct answer(s).</h2>
                 <br>
                 </div>
                 <div class="container">

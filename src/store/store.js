@@ -29,7 +29,7 @@ const state = {
     {
         name: 'Design',
         current: 0,
-        total: 3,
+        total: 2,
         next: '/game-systems'
     },
     {

@@ -13,10 +13,11 @@
                             What is a game?
                         </h1>
                         <h2 class="content">
-                            <p>A game is something that people do for fun. It is different from work. In many games, people play against other people.</p>
+                            <p>A game is an activity done for fun. You can play a game by yourself or with a team, games usually have a set of rules that need to be followed.</p>
 
-                            <p>There are different kinds of games. For example, in video games, people often use controllers to control what happens on a screen, such as a television screens. 
-                                In board games, players often move pieces on a flat surface called a board. In card games, players use playing cards.</p>
+                            <p>
+                                Games come in many different forms, in this badge we will focus on video games. 
+                                Video games are played using a digital platform such as a games console. Do remember that there are other types of games including board games and card games.</p>
                         </h2>
                     </div>
                     <div class="column">

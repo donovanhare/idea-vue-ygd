@@ -14,7 +14,14 @@
                     </h1>
                     <h2 class="content">
                         <p>Before diving into the creation of a game, it is important to come up with a unique idea. Without a unique idea it is increadebly hard to stand out from the crowd!</p>
-                        <p>See if you can come up with a unique idea for a game! <span class="is-hidden-touch">Try using the idea generator! Once you have come up with an idea, you are ready to move on to the next section!</span></p>
+                        <p>See if you can come up with a unique idea for a game! </p>
+
+                        
+                        <article class="message is-info">
+                            <div class="message-body">
+                                <p><i>Use the <b><a href="http://ygd.bafta.org/sites/default/files/uploads/session1ideascapture.pdf" target="_blank">Idea Capture Worksheet</a></b> to help brainstorm your ideas!</i></p>
+                            </div>
+                        </article>
                         <div class="columns">
                             <div class="column is-hidden-touch">
                                 <img src="../assets/imgs/ygd15illustrations01-concept.png">                                
