@@ -10,7 +10,7 @@
             <p class="subtitle has-text-centered">
             Welcome to the <strong>BAFTA Young Game Designers</strong> iDEA pathway!
             </p>
-            <p class="content">
+            <div class="content">
                 <p>We are delighted that you are interested in learning more about Game Design and cannot wait to see all of the fantastic new ideas you create. </p>
 
                 <br><p>The Game Concept Pathway introduces you to ideas on the creative processes involved in designing a new game. Follow our ten tasks, collecting points and badges along the way as we take you through some top tips on how to create and present a great game idea.</p> 
@@ -19,8 +19,7 @@
                 <p>All of the tasks you complete in the Game Concept Pathway, including the worksheets, can be entered as ‘supporting materials’ in the BAFTA YGD competition.</p>
 
                 <br><p>We are delighted that you are interested in learning more about game design and cannot wait to see all of the fantastic new ideas you create.</p>
-
-            </p>
+            </div>
             <div class="has-text-centered">
                 <title-button>Start Badge</title-button>
             </div>

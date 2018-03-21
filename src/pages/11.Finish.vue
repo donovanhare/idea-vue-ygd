@@ -10,7 +10,7 @@
 <script>
 export default {
     mounted() {
-        this.$store.commit('page', 7);
+        this.$store.commit('page', 10);
         this.$store.dispatch('postResult', 'pass');                
     }
 }

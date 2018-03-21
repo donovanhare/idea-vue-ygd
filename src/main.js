@@ -26,6 +26,8 @@ import Quiz from './components/activities/Quiz.vue'
 import IdeaGenerator from './components/activities/IdeaGenerator.vue'
 import Video from './components/activities/Video.vue'
 import SortGame from './components/activities/SortGame.vue'
+import Exercise from './components/activities/Exercise.vue'
+import Tip from './components/activities/Tip.vue'
 
 Vue.component('slide', Slide);
 Vue.component('banner', Banner);
@@ -38,6 +40,8 @@ Vue.component('quiz', Quiz);
 Vue.component('idea-generator', IdeaGenerator);
 Vue.component('youtube', Video);
 Vue.component('sort-game', SortGame);
+Vue.component('exercise', Exercise);
+Vue.component('tip', Tip);
 
 Vue.mixin({
   methods: {

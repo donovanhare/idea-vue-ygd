@@ -18,7 +18,55 @@ const state = {
         name: 'Getting Started',
         current: 0,
         total: 2,
-        next: '/concept'
+        next: '/idea'
+    },
+    {
+        name: 'Idea',
+        current: 0,
+        total: 2,
+        next: '/mechanics'
+    },
+    {
+        name: 'Mechanics',
+        current: 0,
+        total: 3,
+        next: '/progression'
+    },
+    {
+        name: 'Progression',
+        current: 0,
+        total: 1,
+        next: '/game-systems'
+    },
+    {
+        name: 'Game Systems',
+        current: 0,
+        total: 3,
+        next: '/level-design'
+    },
+    {
+        name: 'Level Design',
+        current: 0,
+        total: 1,
+        next: '/sound-motion'
+    },
+    {
+        name: 'Sound Motion',
+        current: 0,
+        total: 3,
+        next: '/key-art'
+    },
+    {
+        name: 'Key Art',
+        current: 0,
+        total: 1,
+        next: '/launch'
+    },
+    {
+        name: 'Launch',
+        current: 0,
+        total: 2,
+        next: '/finish'
     },
     {
         name: 'Finish',
@@ -73,6 +121,7 @@ const mutations = {
 
 const actions = {
     getUser(context) {
+        return null;
         axios.get("https://ygd.idea.org.uk/api/user")
             .then(response => {
                console.log(response); //if not error
@@ -89,6 +138,7 @@ const actions = {
     },
 
     postProgress({state}) {
+        return null;
         console.log('next page');
         console.log(state);
         axios.post("https://ygd.idea.org.uk/api/progress", { progress: state.page })
@@ -97,6 +147,7 @@ const actions = {
     },
 
     postResult({state}, result) {
+        return null;
         axios.post("https://ygd.idea.org.uk/api/result", { result: result })
             .then(response => {
                 console.log(response);
