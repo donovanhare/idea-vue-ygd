@@ -1,7 +1,7 @@
 <template>
   <div>
         <title-page title="Finish!" :tabid=6>
-            Congratulations for making it to the end of the BAFTA YGD iDEA pathway! You are now ready to embark on the a game making adventure. Why not enter the YGD competition...blah
+            Congratulations for making it to the end of the BAFTA Young Game Designer iDEA pathway! You are now ready to embark on the a game making adventure. Click <a>HERE</a> to find out more about the BAFTA's YGD awards. 
             <title-button>Claim points on iDEA</title-button>            
         </title-page>
   </div>

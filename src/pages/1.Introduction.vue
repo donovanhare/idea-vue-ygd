@@ -11,16 +11,14 @@
             Welcome to the <strong>BAFTA Young Game Designers</strong> iDEA pathway!
             </p>
             <p class="content">
-                We are delighted that you are interested in learning more about game design and cannot wait to see all of the fantastic new ideas you create.
-                <!-- You are about to embark on the <strong>YGD Game Concept Badge</strong>!  -->
-                <br/><br/>This badge has a number of activities for you to complete, don't worry if you have to leave the badge, your progress will be saved.
-                <br/><br/>There is lots to learn, in this badge you will...
-                <ul>
-                    <li>Build a solid understanding as to what game development is.</li>
-                    <li>Learn key terms associate with game development.</li>
-                    <li>Learn why games are made how they are.</li>
-                    <li>Be ready to plan your game for YGD 2018!</li>
-                </ul>
+                <p>We are delighted that you are interested in learning more about Game Design and cannot wait to see all of the fantastic new ideas you create. </p>
+
+                <br><p>The Game Concept Pathway introduces you to ideas on the creative processes involved in designing a new game. Follow our ten tasks, collecting points and badges along the way as we take you through some top tips on how to create and present a great game idea.</p> 
+
+                <br><p>At the end of the 10 tasks you will be invited to earn an additional limited edition badge by entering the BAFTA Young Game Designers 2018 Competition (http://ygd.bafta.org) and getting your ideas put in front of top game industry professionals!*</p>
+                <p>All of the tasks you complete in the Game Concept Pathway, including the worksheets, can be entered as ‘supporting materials’ in the BAFTA YGD competition.</p>
+
+                <br><p>We are delighted that you are interested in learning more about game design and cannot wait to see all of the fantastic new ideas you create.</p>
 
             </p>
             <div class="has-text-centered">

@@ -21,36 +21,6 @@ const state = {
         next: '/concept'
     },
     {
-        name: 'Concept',
-        current: 0,
-        total: 3,
-        next: '/design'
-    },
-    {
-        name: 'Design',
-        current: 0,
-        total: 2,
-        next: '/game-systems'
-    },
-    {
-        name: 'GameSystems',
-        current: 0,
-        total: 2,
-        next: '/sound-motion'
-    },
-    {
-        name: 'SoundMotion',
-        current: 0,
-        total: 2,
-        next: '/marketing-community'
-    },
-    {
-        name: 'Marketing Community',
-        current: 0,
-        total: 2,
-        next: '/finish'
-    },
-    {
         name: 'Finish',
         current: 0,
         total: 1,
@@ -130,7 +100,12 @@ const actions = {
         axios.post("https://ygd.idea.org.uk/api/result", { result: result })
             .then(response => {
                 console.log(response);
-                window.location.href = response.data.redirect_uri;
+                console.log(response.data.redirect_uri);
+                if(response.data.redirect_uri) {
+                    //window.location.href = response.data.redirect_uri;
+                } else {
+                    //window.location.href = 'https://idea.org.uk/badge/game-concept/complete?issue=1';
+                }
             })
             .catch(error => console.log(error)); 
     }

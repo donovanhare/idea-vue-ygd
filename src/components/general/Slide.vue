@@ -20,6 +20,16 @@ export default {
         sid: {
             type: Number,
             default: 0
+        },
+        timeout: {
+            type: Number,
+            default: 0
+        }
+    },
+
+    mounted() {
+        if(this.timeout) {
+            console.log('set timeout for x long');
         }
     }
 
