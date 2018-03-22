@@ -1,6 +1,7 @@
 <template>
     <div>
-        <title-page title="Goals, Challenges & Rewards" :tabid=0>
+        <title-page title="Developing Your Idea" :tabid=1>
+            <p>Goals, Challenges & Rewards</p>
             <title-button>Continue</title-button>                        
         </title-page>
         
@@ -12,7 +13,7 @@
         </slide>
 
         <slide :sid=2>
-            <section class="content is-large">
+            <section class="content is-medium">
                 <p>It is time to decide which of the game ideas from your research in Task 2 you want to start to develop further. </p>
                 <p>
                     Pick which idea you would most like to play and answer the following questions:
@@ -22,7 +23,12 @@
                         <li>What makes your game <b>different</b> to other games currently on the market?</li>
                     </ul>
                 </p>
-                <hr>
+            </section>
+            <next-slide slot="foot"></next-slide>                            
+        </slide>
+
+        <slide :sid=3>
+            <section class="content is-medium">
                 <p>
                     Think carefully about the different <b>goals</b>, <b>challenges</b> and <b>rewards</b> that might be on offer in your game. 
                     <ul>
@@ -31,12 +37,14 @@
                         <li>How do players ‘win’?</li>
                     </ul>
                 </p>
-                <p>The next section is a quiz, you might like to refer to the <a href="http://ygd.bafta.org/sites/default/files/uploads/ygd17factSheet03.pdf"><b>Design Fact Sheet</b></a>.</p>
+                <tip>
+                    <p>The next section is a quiz, you might like to refer to the <a href="http://ygd.bafta.org/sites/default/files/uploads/ygd17factSheet03.pdf"><b>Design Fact Sheet</b></a>.</p>
+                </tip>
             </section>
-            <next-slide slot="foot"></next-slide>                            
+            <next-slide slot="foot"></next-slide>                                        
         </slide>
         
-        <quiz :sid=3 :qid=1></quiz>
+        <quiz :sid=4 :qid=1></quiz>
         
     </div>
 </template>

@@ -14,8 +14,8 @@ export default {
             sections: [
                 'Getting Started',
                 'Concept',
-                'Design',
                 'Systems',
+                'Design',
                 'Sound & Motion',
                 'Marketing & Community',
                 'Finish'

@@ -17,7 +17,7 @@ const state = {
     {
         name: 'Getting Started',
         current: 0,
-        total: 2,
+        total: 1,
         next: '/idea'
     },
     {
@@ -29,7 +29,7 @@ const state = {
     {
         name: 'Mechanics',
         current: 0,
-        total: 3,
+        total: 4,
         next: '/progression'
     },
     {
@@ -71,7 +71,7 @@ const state = {
     {
         name: 'Finish',
         current: 0,
-        total: 1,
+        total: 3,
         next: '/'
     },
   ],

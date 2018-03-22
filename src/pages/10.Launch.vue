@@ -1,6 +1,6 @@
 <template>
     <div>
-        <title-page title="Ready for Launch!" :tabid=0>
+        <title-page title="Ready for Launch!" :tabid=5>
             <p>You have already come up with a fantastic new game idea – let’s make it even better!</p>
             <title-button>Continue</title-button>                        
         </title-page>
@@ -14,7 +14,7 @@
         </slide>
 
         <slide :sid=2>
-            <section class="content is-large">
+            <section class="content is-medium">
                 <p>In this task we challenge you to look carefully at your game idea and identify any areas in which you think it could improve.</p>
                 <p>It can be very tricky to hear feedback on something you have created, so try to focus on what people really enjoyed about your game and how you can use that to make an awesome final product!</p>
             </section>

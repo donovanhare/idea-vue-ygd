@@ -1,6 +1,6 @@
 <template>
     <div>
-        <title-page title="Game Systems" :tabid=0>
+        <title-page title="Game Systems" :tabid=2>
             <p>It is time to get a bit more technical and decide on how you want your game to work.  </p>
             <title-button>Continue</title-button>                        
         </title-page>

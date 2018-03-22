@@ -6,19 +6,11 @@
         </title-page>
 
         <slide :sid=1>
-            <section class="content">
-                <p><b>BAFTA YGD Games Glossary:</b> Unsure what a game term or word means? See if you can find a definition here with our useful Games Glossary</p>
-                <a class="button is-dark" href="http://ygd.bafta.org/sites/default/files/uploads/ygd17glossary02.pdf">Download Glossary</a>
-            </section>
-            <next-slide slot="foot"></next-slide>                            
-        </slide>
-
-        <slide :sid=2>
             <section class="container">
                 <h1 class="title">
                     What makes the games we enjoy playing so much fun?
                 </h1>
-                <h2 class="content">
+                <h2 class="content is-medium">
                     <p>
                         Think about games that you already enjoy playing:
                         <ul>
@@ -35,12 +27,15 @@
                         
     
                     </p>
-                    <article class="message is-info">
-                        <div class="message-body">
-                            <p>Now download and complete the <a href="http://ygd.bafta.org/sites/default/files/uploads/YGDworksheet-session2task.pdf" target="_blank"><b>Game Remix Worksheet</b></a>, blending the three games together to see if you can create a completely new idea!</p>
-                        </div>
-                    </article>
+                    <exercise>
+                        <p>Now download and complete the <a href="http://ygd.bafta.org/sites/default/files/uploads/YGDworksheet-session2task.pdf" target="_blank"><b>Game Remix Worksheet</b></a>, blending the three games together to see if you can create a completely new idea!</p>
+                        
+                    </exercise>
                 </h2>
+                <tip class="content">
+                    <p>BAFTA YGD Games Glossary: Unsure what a game term or word means? See if you can find a definition here with our useful <a href="http://ygd.bafta.org/sites/default/files/uploads/ygd17glossary02.pdf"><b>Games Glossary</b></a></p>
+                    
+                </tip>
             </section>
             <next-slide slot="foot"></next-slide>                
             

@@ -1,9 +1,10 @@
 <template>
     <article class="message is-primary">
         <div class="message-header">
-            <p>Exercise</p>
+            Exercise
+            <button class="delete" aria-label="delete" @click="show = !show"></button>
         </div>
-        <div class="message-body">
+        <div class="message-body" v-if="show">
             <slot></slot>            
         </div>
     </article>
@@ -11,7 +12,11 @@
 
 <script>
 export default {
-
+    data() {
+        return {
+            show: true
+        }
+    }
 }
 </script>
 

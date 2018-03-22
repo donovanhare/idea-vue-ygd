@@ -1,16 +1,15 @@
 <template>
     <div>
-        <title-page title="Sound in Motion" :tabid=0>
+        <title-page title="Sound in Motion" :tabid=4>
+            <p>In this task we challenge you to think about what your game would sound like.</p>
             <title-button>Continue</title-button>                        
         </title-page>
 
         <slide :sid=1>
-            <section class="content is-large">
-                <p>In this task we challenge you to think about what your game would sound like. 
+            <section class="content is-medium">
                     <ul>
                         <li>How would moving around in your game environment change the sounds your player would hear?</li>
                     </ul>
-                </p>
                 <p>Ready to see just how much sound influences games? Pick your favourite game and play through with the sound turned off:
                     <ul>
                         <li>How does it feel?</li>

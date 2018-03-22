@@ -1,12 +1,12 @@
 <template>
     <div>
-        <title-page title="Concept & Level Design" :tabid=0>
+        <title-page title="Concept & Level Design" :tabid=3>
+            <p>It is time to break out the colouring pens and pencils or load up your favourite computer art programme to fill in the rest of the Concept and Level Design Worksheet.</p>
             <title-button>Continue</title-button>                        
         </title-page>
 
         <slide :sid=1>
-            <section class="content is-large">
-                <p>It is time to break out the colouring pens and pencils or load up your favourite computer art programme to fill in the rest of the Concept and Level Design Worksheet.</p>
+            <section class="content is-medium">
                 <p>Think carefully about how your game will look whilst it is on-screen. </p>
                 <p>Why not consider the other sorts of images you could produce?:
                     <ul>
